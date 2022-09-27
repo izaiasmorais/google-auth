@@ -19,6 +19,7 @@ https://user-images.githubusercontent.com/53953937/192640444-2ccb5ac4-3976-4a93-
 - [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Firebase](https://firebase.google.com/)
 
 ## 💻 Clonando projeto
 
