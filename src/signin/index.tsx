@@ -33,9 +33,9 @@ export function SignIn() {
         <div>
           <h1 className="text-3xl font-semibold">Acesse sua conta</h1>
           <p className="text-[#707076]">
-            Utilizando autenticação social, como a do Google você facilita a
-            vida do usuário permitindo-o se autenticar sem necessidade de
-            cadastro cadastro.
+            Utilizando autenticação social, assim como a do Google, você
+            facilita a vida do usuário permitindo a ele se autenticar sem
+            necessidade de realizar cadastro.
           </p>
 
           <div className="bg-signin-gradient p-[3px] mt-4">
