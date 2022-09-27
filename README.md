@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/53953937/192640444-2ccb5ac4-3976-4a93-
 ## 💻 Clonando projeto
 
 ```bash
-$ git clone https://github.com/IzaiasMorais/google-auth.git && cd google-auth
+$ git clone https://github.com/izaiasmorais/google-auth.git && cd google-auth
 ```
 
 ```bash
