@@ -7,8 +7,8 @@ module.exports = {
         sans: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        "nlw-gradient":
-          "linear-gradient(240deg, #0BB5FF 50%, #43E7AD)",
+        "signin-gradient": "linear-gradient(240deg, #0BB5FF 50%, #43E7AD)",
+        "signout-gradient": "linear-gradient(240deg, #FFAA0B 50%, #FF0B64)",
       },
     },
   },

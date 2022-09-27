@@ -1,18 +1,15 @@
-import { signInWithPopup, GoogleAuthProvider, User } from "firebase/auth";
-import { useState } from "react";
-import { auth } from "../services/firebase";
+import { useGoogleAuth } from "../contexts/GoogleAuthContext";
+import { SignOut as SignOutIcon } from "phosphor-react";
 
 export function SignIn() {
-  const [user, setUser] = useState<User>({} as User);
+  const { user, SignIn, SignOut } = useGoogleAuth();
 
   function handleGoogleSignIn() {
-    const provider = new GoogleAuthProvider();
+    SignIn();
+  }
 
-    signInWithPopup(auth, provider)
-      .then((r) => {
-        setUser(r.user);
-      })
-      .catch((err) => console.log(err));
+  function handleSignOut() {
+    SignOut();
   }
 
   return (
@@ -40,7 +37,8 @@ export function SignIn() {
             vida do usuário permitindo-o se autenticar sem necessidade de
             cadastro cadastro.
           </p>
-          <div className="bg-nlw-gradient p-[3px] mt-4">
+
+          <div className="bg-signin-gradient p-[3px] mt-4">
             <button
               className="p-3 flex gap-2 items-center justify-center bg-white w-full h-full"
               onClick={handleGoogleSignIn}
@@ -52,6 +50,16 @@ export function SignIn() {
                 height={20}
               />
               Entrar com o Google
+            </button>
+          </div>
+
+          <div className="bg-signout-gradient p-[3px] mt-4">
+            <button
+              className="p-3 flex gap-2 items-center justify-center bg-white w-full h-full"
+              onClick={handleSignOut}
+            >
+              <SignOutIcon size={20} color="black" />
+              Desconectar
             </button>
           </div>
         </div>
