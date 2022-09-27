@@ -4,7 +4,7 @@
 
 ## 📃 Sobre o projeto
 
-A aplicação baseada na autenticação com Google via Firebase é uma ótima opção para autenticação, uma vez que é fácil de realizar e principalmente persistir em um LocalStorage, SessionStorage da vida.
+Baseada na autenticação com Google via Firebase, a aplicação é uma ótima opção para uma interface de autenticação, uma vez que é fácil de realizar e principalmente de persistir em um LocalStorage, SessionStorage da vida.
 
 ### Funcionalidades
 
