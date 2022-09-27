@@ -8,15 +8,15 @@ A aplicação baseada na autenticação com Google via Firebase é uma ótima op
 
 ### Funcionalidades
 
-- Listar, adicionar, editar e deletar transações, orçamentos e dívidas.
-- Modo escuro completo.
-- Design responsivo completo.
+- Autenticação com Google, em forma de popup.
+- Autenticação persistente.
+- Desconectar sessão.
 
 ## 🚀 Tecnologias
 
-- [Next.js](https://nextjs.org/)
+- [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-
+- [TailwindCSS](https://tailwindcss.com/)
 
 ## 💻 Clonando projeto
 
