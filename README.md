@@ -8,7 +8,7 @@ Baseada na autenticação com Google via Firebase, a aplicação é uma ótima o
 
 https://user-images.githubusercontent.com/53953937/192640444-2ccb5ac4-3976-4a93-b7a4-9208b23afa9c.mp4
 
-## 🔧 Funcionalidades
+## 🛠 Funcionalidades
 
 - Autenticação com Google, em forma de popup.
 - Autenticação persistente.
@@ -40,7 +40,7 @@ Com o projeto clonado você deve se registrar no [Firebase](https://console.fire
 - Siga os passos mostrados, instalando o Firebase na sua aplicação e inicializando o Firebase numa rota /services/firebase.ts, por exemplo.
 - Obs: Clonando este projeto e tendo a SDK em mãos, basta você substituir o código que está em /services/firebase.ts pelo código que o firebase vai lhe dar.
 - Clique em "continuar para o console", depois vá até **Criação/Authentication**.
-- Clique em "vamo começar" e adicione o Google como provedor de login.
+- Clique em "vamos começar" e adicione o Google como provedor de login.
 
 ```bash
 # Rodando o projeto
