@@ -34,7 +34,7 @@ $ npm i
 ```
 
 Com o projeto clonado você deve se registrar no [Firebase](https://console.firebase.google.com/u/0/) e seguir os passos abaixo:
-- Adicione um novo projeto com o nome que desejar
+- Adicione um novo projeto com o nome que desejar.
 - Procure o símbolo **</>** na interface inicial com o nome **Web** e clique.
 - Adicione um nome à integração web e crie.
 - Siga os passos mostrados, instalando o Firebase na sua aplicação e inicializando o Firebase numa rota /services/firebase.ts, por exemplo.
