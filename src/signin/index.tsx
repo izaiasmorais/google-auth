@@ -23,7 +23,7 @@ export function SignIn() {
             <img
               src={user.photoURL}
               alt="Foto do usuário"
-              className="w-full mb-2 rounded-[50%] max-w-[150px] ml-8"
+              className="w-full mb-2 rounded-[50%] max-w-[150px] ml-6"
             />
           )}
           <strong className="text-xl">{user.displayName}</strong>
