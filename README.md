@@ -8,7 +8,7 @@ Baseada na autenticação com Google via Firebase, a aplicação é uma ótima o
 
 https://user-images.githubusercontent.com/53953937/192640444-2ccb5ac4-3976-4a93-b7a4-9208b23afa9c.mp4
 
-### Funcionalidades
+## 🔧 Funcionalidades
 
 - Autenticação com Google, em forma de popup.
 - Autenticação persistente.
