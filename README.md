@@ -38,7 +38,7 @@ Com o projeto clonado você deve se registrar no [Firebase](https://console.fire
 - Procure o símbolo "</>" na interface inicial com o nome "Web" e clique.
 - Adicione um nome à integração web e crie.
 - Siga os passos mostrados, instalando o Firebase na sua aplicação e inicializando o Firebase numa rota /services/firebase.ts, por exemplo.
-- Obs: Clonando este projeto e tendo a SDK em mãos, basta você substituir o código que está em /services/firebase.ts por o código que o firebase vai lhe apresentar.
+- Obs: Clonando este projeto e tendo a SDK em mãos, basta você substituir o código que está em /services/firebase.ts pelo código que o firebase vai lhe dar.
 - Clique em "continuar para o console", depois vá até *Criação/Authentication*.
 - Clique em "vamo começar" e adicione o Google como provedor de login.
 
